@@ -35,8 +35,6 @@ class PdfLoader extends Component {
     });
 
     if (url) {
-      //const pdfjs = require("../lib/pdfjs-dist/build/pdf.min.js");
-      console.log("pdfjs", pdfjs);
       pdfjs.getDocument({
         url: url,
         eventBusDispatchToDOM: true
