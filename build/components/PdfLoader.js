@@ -1,8 +1,8 @@
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 import React, { Component } from "react";
-import pdfjs from "../lib/pdfjs-dist/build/pdf.min.js";
-import pdfjsWorker from "../lib/pdfjs-dist/build/pdf.worker.entry";
+import pdfjs from "../lib/pdfjs-custom-dist/build/pdf.min.js";
+import pdfjsWorker from "../lib/pdfjs-custom-dist/build/pdf.worker.entry";
 
 class PdfLoader extends Component {
   constructor(...args) {

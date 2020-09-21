@@ -4,8 +4,8 @@ import React, { Component } from "react";
 
 import type { T_PDFJS, T_PDFJS_Document } from "../types";
 
-import pdfjs from "../lib/pdfjs-dist/build/pdf.min.js";
-import pdfjsWorker from "../lib/pdfjs-dist/build/pdf.worker.entry";
+import pdfjs from "../lib/pdfjs-custom-dist/build/pdf.min.js";
+import pdfjsWorker from "../lib/pdfjs-custom-dist/build/pdf.worker.entry";
 
 type Props = {
   url: string,

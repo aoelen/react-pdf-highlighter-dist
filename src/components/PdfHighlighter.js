@@ -8,9 +8,9 @@ import {
   PDFFindController,
   PDFLinkService,
   EventBus
-} from "../lib/pdfjs-dist/web/pdf_viewer";
+} from "../lib/pdfjs-custom-dist/web/pdf_viewer";
 
-import "../lib/pdfjs-dist/web/pdf_viewer.css";
+import "../lib/pdfjs-custom-dist/web/pdf_viewer.css";
 import "../style/pdf_viewer.css";
 
 import "../style/PdfHighlighter.css";
